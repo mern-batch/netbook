@@ -1,0 +1,27 @@
+Colors: 
+primary-color: #217BF4;
+header-color: #0A093D;
+paragraph-color: #8C8C8C;
+footer-background-color: #2B2B39;
+
+Resource/ Image
+Done
+
+Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+Assignment: 
+Practice - N/A 
+
+Project - Must Be Applicable or Assignable 
+
+Free code camp
+
+CSS W3Schools 
+
+themefores
+
+coders gyan
+
+github

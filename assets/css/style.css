@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --paragraph-color: #8C8C8C;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* color: #8C8C8C; */
+    color: var(--paragraph-color);
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+header {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    /* max-width: 950px;
+    margin: 30px auto;   */
+}
+
+nav>div.left-side {
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    /* max-width: 950px;
+    margin: 30px auto;   */
+    align-items: center;
+
+}
+
+.logo {
+    margin-right: 72px;
+}
+
+.left-side>a {
+    margin-right: 30px;
+}
+
+.left-side>a:last-child {
+    margin-right: 0;
+}
+
+.left-side>a:first-of-type {
+    color: #000;
+    font-weight: bold;
+}
+
+.button {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    padding: 18px 40px;
+    /* outline: none; */
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 42px;
+}
+
+nav>.right-side>input {
+    border: none;
+    border-bottom: 1px solid var(--paragraph-color);
+    padding-bottom: 18px;
+    background-color: transparent;
+    width: 100px;
+    outline: none;
+}
+
+#header>.left-side,
+#header>.right-side {
+    width: 50%;
+}
+
+#header>.right-side>img {
+    width: 100%;
+}
+
+#header>.left-side>span {
+    color: #217BF4;
+    padding: 12px 30px;
+    background-color: #217cf425;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+
+    color: #0A093D;
+    margin-bottom: 18px;
+}
+
+#header>.left-side>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+    margin-bottom: 42px;
+
+}
+
+#header>.left-side>button:first-of-type {
+    margin-left: 0;
+}
+
+#header>.left-side>button:last-child {
+    margin-left: 20px;
+    background-color: transparent;
+    color: #217BF4;
+    border: 1px solid #217BF4;
+}
+
+hr {
+    border: 1px solid #217cf41d;
+}
